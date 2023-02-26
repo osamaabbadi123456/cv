@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>Forms</title>
+</head>
+<body>
+    <form method="post" action="mailto:osamaabbadi123456@gmail.com" enctype="text/plain">
+        <label>Username</label> 
+        <!-- ------------------------------------ input types-->
+     <input type="text"   size="20" maxlength="10"   value="osama">  <!--1-->
+     <br>
+   
+     <!-- i can put it without label  -->password<input type="password"  maxlength="10" size="15" placeholder="osama" name="yourpassword">    <!--value look at stars but placeholder not--><!--2-->
+     <br>
+     Male<input type="radio" checked name="Gender"> <!--checked --> <!--3-->
+     <br>
+     Female<input type="radio" name="Gender"> <!--name to select one of them-->
+     <br>
+     web1<input type="checkbox" name="web1"> <!--4-->
+     web2<input type="checkbox" name="web2" > <!--you can select0,1, more than 1--> <!--شو فايدة الاسم-->
+     <input type="submit" value="send"> <!--5-->
+    <input type="reset" value="clear"> <!--6-->
+    <input type="button" value="show"  onclick="alert('hi')"> <!--7-->
+    <!-- ------------------------      hidden 8 back-->
+    <br>
+    color<input type="color" value="#9A86FE" name="color"> <!--9-->
+    <label>text area</label>
+    <textarea col="20" row="30" name="yourmassage">my name is osama</textarea>
+    Date
+    </form>
+</body>
+</html>
